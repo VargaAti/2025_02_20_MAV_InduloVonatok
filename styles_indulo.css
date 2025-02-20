@@ -1,0 +1,69 @@
+body{
+  background-color: rgba(0, 0, 0, 0.801);
+}
+table, th, td {
+  border: 1px soli;
+    
+  }
+table {
+    width: 100%; /* weboldal szélessége */
+    background-color: #3c6382;
+    color:white;
+    font-family: "Calibri";
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #ido {
+    width: 10%;
+    background-color: white;
+    color: #3c6382;
+  }
+
+  #abfahrt {
+    text-align: center;
+    width: 25%;
+  }
+
+  #ind {
+    text-align: center;
+  }
+
+  #departures {
+    text-align: center;
+  }
+
+  #logo {
+    text-align: right;
+  }
+
+
+  #tervezett {
+    font-size: 15px;
+    text-align: left;
+  }
+
+  #varhato {
+    font-size: 15px;
+    text-align: left;
+  }
+
+  #vonat {
+    text-align: left;
+  }
+
+  #honnan {
+    text-align: left;
+  }
+
+  tbody {
+    background-color: #3c6382;
+    tr:nth-child(even) {
+      background-color: #497d93;
+    }
+  }
+
+  #vonattipus {
+    text-align: left;
+    padding-left: 20px;
+  }
