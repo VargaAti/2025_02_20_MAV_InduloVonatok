@@ -3,11 +3,10 @@ body{
 }
 table, th, td {
   border: 1px soli;
-    
+    border-collapse: collapse;
   }
 table {
     width: 100%; /* weboldal szélessége */
-    background-color: #3c6382;
     color:white;
     font-family: "Calibri";
     font-size: 30px;
@@ -25,11 +24,7 @@ table {
     width: 25%;
   }
 
-  #ind {
-    text-align: center;
-  }
-
-  #departures {
+  .kozeprez {
     text-align: center;
   }
 
@@ -37,13 +32,7 @@ table {
     text-align: right;
   }
 
-
-  #tervezett {
-    font-size: 15px;
-    text-align: left;
-  }
-
-  #varhato {
+  .tervezett_varhato {
     font-size: 15px;
     text-align: left;
   }
@@ -52,18 +41,21 @@ table {
     text-align: left;
   }
 
-  #honnan {
+  .balraz {
     text-align: left;
   }
 
   tbody {
-    background-color: #3c6382;
+    background-color: #497d93;
     tr:nth-child(even) {
-      background-color: #497d93;
+      background-color: #3c6382;
     }
   }
 
-  #vonattipus {
+  .vonattipus {
     text-align: left;
     padding-left: 20px;
+  }
+  thead {
+    background-color: #3c6382;
   }
